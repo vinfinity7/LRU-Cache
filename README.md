@@ -96,7 +96,7 @@ Represents a node in the doubly linked list.
 
 ```cpp
 struct ListNode {
-    std::string name;
+    string name;
     ListNode* prev;
     ListNode* next;
 };
@@ -108,7 +108,7 @@ Represents a node in the binary search tree.
 
 ```cpp
 struct TreeNode {
-    std::string name;
+    string name;
     ListNode* address;
     TreeNode* lchild;
     TreeNode* rchild;
@@ -123,7 +123,7 @@ Represents a node in the doubly linked list.
 
 ```cpp
 struct ListNode {
-    std::string name;
+    string name;
     int frequency;
     ListNode* prev;
     ListNode* next;
