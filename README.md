@@ -262,18 +262,30 @@ int main() {
 
 ### Compilation
 
-To compile the program, use the following command:
+To compile the programs, use the following commands:
 
+For LRU Cache:
 ```sh
-g++ -o frequently_contacted frequently_contacted.cpp
+g++ -o lru_cache LRU_Cache.cpp
+```
+
+For LFU Cache:
+```sh
+g++ -o lfu_cache LFU_Cache.cpp
 ```
 
 ### Running the Program
 
-To run the program, use the following command:
+To run the programs, use the following commands:
 
+For LRU Cache:
 ```sh
-./frequently_contacted
+./lru_cache
+```
+
+For LFU Cache:
+```sh
+./lfu_cache
 ```
 
 ### Menu Options
